@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="EMS:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/EMS_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="EMS/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="EMS" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="E:/百知/百知项目组/mongo-java-driver-2.12.4.jar" />
+          <element id="file-copy" path="E:/百知/百知项目组/patchca-0.5.0.jar" />
+          <element id="library" level="project" name="jstl:jstl:1.2" />
+          <element id="file-copy" path="D:/百知/百知项目组/mongo-java-driver-2.12.4.jar" />
+          <element id="file-copy" path="D:/百知/百知项目组/patchca-0.5.0.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
